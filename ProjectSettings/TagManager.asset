@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Shootable
+  - HelmetPickUp
+  - Tile
+  - PatrolPoint
+  - FirstHelmetPickUp
+  - FirstKidPickUp
+  - MedkitPickUp
+  - DeadArea
+  - AboutMenuTag
+  - MainMenuTag
+  - MenuTag
+  - InfoFirstHelmet
+  - InfosMainTag
+  - InfoFirstMedkit
+  - GameOverTag
+  - MonsterSpawn
+  - NormalHelmet
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Lighting
+  - Ground
+  - Postprocessing
+  - Wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Fire
+    uniqueID: 3804908061
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
