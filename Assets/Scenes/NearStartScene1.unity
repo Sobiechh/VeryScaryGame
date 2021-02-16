@@ -2183,17 +2183,17 @@ PrefabInstance:
     - target: {fileID: 4810999055656693960, guid: fbf5f22d887416246b4e139b000b3a0b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.715
+      value: -3.64
       objectReference: {fileID: 0}
     - target: {fileID: 4810999055656693960, guid: fbf5f22d887416246b4e139b000b3a0b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.213
+      value: 0.79
       objectReference: {fileID: 0}
     - target: {fileID: 4810999055656693960, guid: fbf5f22d887416246b4e139b000b3a0b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.361
+      value: 42.16
       objectReference: {fileID: 0}
     - target: {fileID: 4810999055656693960, guid: fbf5f22d887416246b4e139b000b3a0b,
         type: 3}
@@ -2258,7 +2258,7 @@ PrefabInstance:
     - target: {fileID: 5300677981123406450, guid: fbf5f22d887416246b4e139b000b3a0b,
         type: 3}
       propertyPath: m_TagString
-      value: HelmetPickUp
+      value: NormalHelmet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbf5f22d887416246b4e139b000b3a0b, type: 3}
@@ -2518,8 +2518,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1686225, y: 0.041633204, z: 0.04857967}
-  m_Center: {x: -0.00026146887, y: 0.09967705, z: 0.025591264}
+  m_Size: {x: 0.1686225, y: 0.04163321, z: 0.05079796}
+  m_Center: {x: -0.00026146887, y: 0.09967721, z: 0.026700407}
 --- !u!65 &1227606176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3128,6 +3128,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1505721380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5300677981123406450, guid: fbf5f22d887416246b4e139b000b3a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1019812979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1505721382
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505721380}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1515236306
 PrefabInstance:
   m_ObjectHideFlags: 0
